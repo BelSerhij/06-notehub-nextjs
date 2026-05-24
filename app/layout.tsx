@@ -13,15 +13,12 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <head />
       <body>
-        <Header />
-       
       <Providers>
+        <Header />
           <main>{children}</main>
+        <Footer />
       </Providers>
-       
-      <Footer />
       </body>
     </html>
   );
